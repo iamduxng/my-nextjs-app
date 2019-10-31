@@ -1,0 +1,38 @@
+.search-form {
+  @apply w-10/12 flex flex-col justify-center items-center;
+  
+  .search-input {
+    @apply w-full p-3;
+    @apply border-b-2 border-blue-500;
+    @apply bg-transparent;
+  }
+
+  .search-btn {
+    @apply w-auto mx-0 mt-3 p-3;
+    @apply border-2 rounded border-blue-500;
+    @apply text-sm;
+  }
+}
+
+@variants hover, focus {
+  .search-input {
+    @apply border-blue-800;
+  }
+  .search-btn {
+    @apply border-blue-800;
+  }
+}
+
+@screen sm {
+  .search-form {
+    @apply flex-row;
+
+    .search-input {
+      @apply w-4/6;
+    }
+    .search-btn {
+      @apply w-1/6 ml-3 my-0;
+      @apply text-base;
+    }
+  }
+}

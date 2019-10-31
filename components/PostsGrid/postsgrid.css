@@ -1,0 +1,3 @@
+.posts-grid {
+  @apply flex flex-row flex-wrap;
+}

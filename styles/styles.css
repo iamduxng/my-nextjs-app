@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "../pages/pages";
+@import "../components/components";
+
+@import "tailwindcss/utilities";
+
+body {
+  @apply font-sans;
+}

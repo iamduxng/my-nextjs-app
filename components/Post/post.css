@@ -1,0 +1,22 @@
+.post {
+  @apply flex flex-col;
+  @apply  w-1/2 p-1 mb-2;
+
+  .post-thumbnails {
+    img {
+      @apply w-full;
+    }
+  }
+}
+
+@screen sm {
+  .post {
+    @apply w-1/3;
+  }
+}
+
+@screen md {
+  .post {
+    @apply w-1/4;
+  }
+}

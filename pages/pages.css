@@ -1,0 +1,6 @@
+@import "./home/home";
+
+.page-section {
+  @apply bg-teal-300 py-6 px-4;
+  @apply flex justify-center items-center;
+}
