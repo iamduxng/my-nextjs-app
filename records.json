@@ -1,0 +1,52 @@
+{
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!styles/styles.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi node_modules/next-offline/register-sw-compiled.js .\\node_modules\\next\\dist\\client\\next.js": 0,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!styles/styles.css 0": 1
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static\\AFIVWPdutvJwfl-QqvfR0\\pages\\_app.js": 3,
+      "static\\AFIVWPdutvJwfl-QqvfR0\\pages\\_error.js": 4,
+      "static\\AFIVWPdutvJwfl-QqvfR0\\pages\\home.js": 5,
+      "static\\AFIVWPdutvJwfl-QqvfR0\\pages\\posts.js": 6,
+      "styles": 7
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}
