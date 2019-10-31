@@ -13,6 +13,7 @@ const Home = (props) => {
     } else {
       Router.push({
         pathname: '/posts',
+        query: { search: value }
       });
     }
   }
