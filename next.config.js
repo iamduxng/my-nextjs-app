@@ -13,7 +13,7 @@ const nextConfig = {
         handler: 'CacheFirst'
       },
       {
-        urlPattern: /https:.*min\.(css|js)/,
+        urlPattern: /https:.*\.(css|js)/,
         handler: 'CacheFirst'
       },
       {

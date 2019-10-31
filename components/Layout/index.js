@@ -5,7 +5,7 @@ const Layout = (props) => {
   return (
     <Head>
       <title>Next.js App</title>
-      <link rel='icon' href='/favicon.ico' />
+      <link rel='icon' href='./static/favicon.ico' />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="theme-color" content="#000000" />
       <meta name="description" content="" />
@@ -14,10 +14,10 @@ const Layout = (props) => {
       <meta name="mobile-web-app-capable" content="yes"/>
       <meta name="apple-mobile-web-app-capable" content="yes"/>
       <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-      <meta name="apple-mobile-web-app-title" content="Huong's website"/>
+      <meta name="apple-mobile-web-app-title" content="My next app"/>
       
-      <link rel="manifest" href="/manifest.json" />
-      <link rel="apple-touch-icon" href="/logo192.png" />
+      <link rel="manifest" href="./static/manifest.json" />
+      <link rel="apple-touch-icon" href="./static/logo192.png" />
     </Head>
   );
 }
