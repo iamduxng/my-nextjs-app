@@ -1,28 +1,26 @@
-import React, { useRef } from 'react';
+import React, { useState } from 'react';
 import Router from 'next/router';
 
 const Home = (props) => {
-  const searchInput = useRef();
+  const [keyword, setKeyword] = useState('');
+
+  const onChange = (e) => {
+    setKeyword(e.target.value);
+  }
 
   const onSubmit = (e) => {
     e.preventDefault();
-    let value = searchInput.current.value;
-
-    if(!value) {
-      alert('Please enter a keyword!');
-    } else {
-      Router.push({
-        pathname: '/posts',
-        query: { search: value }
-      });
-    }
+    Router.push({
+      pathname: '/posts',
+      query: { search: keyword }
+    });
   }
 
   return (
     <section className="page-section h-screen">
       <form onSubmit={onSubmit} className="search-form">
-        <input ref={searchInput} className="search-input" type="text" placeholder="Enter a keyword"/>
-        <button className="search-btn" type="submit">Search</button>
+        <input className="search-input" type="text" placeholder="Enter a keyword" onChange={onChange}/>
+        <button className="search-btn">Search</button>
       </form>
     </section>
   )
